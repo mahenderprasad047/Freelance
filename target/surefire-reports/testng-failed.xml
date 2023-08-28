@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="GenericUtilities.ExtentTestNGITestListener"/>
+  </listeners>
+  <test thread-count="3" verbose="0" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="TestCases.TC5_ShopProduct">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="CloseApplication"/>
+          <include name="ShopProduct"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- TestCases.TC5_ShopProduct -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="3" verbose="0" name="EdgeTest(failed)" parallel="tests">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="TestCases.TC5_ShopProduct">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="CloseApplication"/>
+          <include name="ShopProduct"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- TestCases.TC5_ShopProduct -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="3" verbose="0" name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="TestCases.TC5_ShopProduct">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="CloseApplication"/>
+          <include name="ShopProduct"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- TestCases.TC5_ShopProduct -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

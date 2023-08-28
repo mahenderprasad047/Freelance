@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-28T13:40:57 IST" name="Suite" finished-at="2023-08-28T13:45:29 IST" duration-ms="271723">
+    <groups>
+    </groups>
+    <test started-at="2023-08-28T13:40:57 IST" name="ChromeTest" finished-at="2023-08-28T13:45:03 IST" duration-ms="245433">
+      <class name="TestCases.TC2_AddCategory">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC2_AddCategory@38234a38]" started-at="2023-08-28T13:41:32 IST" name="LaunchApplication" finished-at="2023-08-28T13:41:34 IST" duration-ms="2307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC2_AddCategory@38234a38]" started-at="2023-08-28T13:41:34 IST" name="setupDriver" finished-at="2023-08-28T13:41:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="AddCategory()[pri:0, instance:TestCases.TC2_AddCategory@38234a38]" started-at="2023-08-28T13:41:34 IST" name="AddCategory" finished-at="2023-08-28T13:42:03 IST" duration-ms="28760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCategory -->
+      </class> <!-- TestCases.TC2_AddCategory -->
+      <class name="TestCases.TC1_CreateUser">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC1_CreateUser@77128536]" started-at="2023-08-28T13:40:57 IST" name="LaunchApplication" finished-at="2023-08-28T13:41:01 IST" duration-ms="3515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC1_CreateUser@77128536]" started-at="2023-08-28T13:41:01 IST" name="setupDriver" finished-at="2023-08-28T13:41:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="CreateUsers()[pri:0, instance:TestCases.TC1_CreateUser@77128536]" started-at="2023-08-28T13:41:01 IST" name="CreateUsers" finished-at="2023-08-28T13:41:32 IST" duration-ms="30731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUsers -->
+      </class> <!-- TestCases.TC1_CreateUser -->
+      <class name="TestCases.TC4_DeleteNewCourseAndCategory">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC4_DeleteNewCourseAndCategory@602e0143]" started-at="2023-08-28T13:42:42 IST" name="LaunchApplication" finished-at="2023-08-28T13:42:44 IST" duration-ms="2205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="DeleteNewlyCreatedCourseAndCategories()[pri:0, instance:TestCases.TC4_DeleteNewCourseAndCategory@602e0143]" started-at="2023-08-28T13:42:44 IST" name="DeleteNewlyCreatedCourseAndCategories" finished-at="2023-08-28T13:43:29 IST" duration-ms="44977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteNewlyCreatedCourseAndCategories -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC4_DeleteNewCourseAndCategory@602e0143]" started-at="2023-08-28T13:42:44 IST" name="setupDriver" finished-at="2023-08-28T13:42:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+      </class> <!-- TestCases.TC4_DeleteNewCourseAndCategory -->
+      <class name="TestCases.TC5_ShopProduct">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC5_ShopProduct@2c07545f]" started-at="2023-08-28T13:43:29 IST" name="LaunchApplication" finished-at="2023-08-28T13:43:32 IST" duration-ms="2436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC5_ShopProduct@2c07545f]" started-at="2023-08-28T13:43:32 IST" name="setupDriver" finished-at="2023-08-28T13:43:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="ShopProduct()[pri:0, instance:TestCases.TC5_ShopProduct@2c07545f]" started-at="2023-08-28T13:43:32 IST" name="ShopProduct" finished-at="2023-08-28T13:45:03 IST" duration-ms="90872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopProduct -->
+      </class> <!-- TestCases.TC5_ShopProduct -->
+      <class name="TestCases.TC3_AddCourse">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC3_AddCourse@63fbfaeb]" started-at="2023-08-28T13:42:03 IST" name="LaunchApplication" finished-at="2023-08-28T13:42:05 IST" duration-ms="2159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC3_AddCourse@63fbfaeb]" started-at="2023-08-28T13:42:05 IST" name="setupDriver" finished-at="2023-08-28T13:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="AddCourse()[pri:0, instance:TestCases.TC3_AddCourse@63fbfaeb]" started-at="2023-08-28T13:42:05 IST" name="AddCourse" finished-at="2023-08-28T13:42:42 IST" duration-ms="37411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCourse -->
+      </class> <!-- TestCases.TC3_AddCourse -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-08-28T13:40:57 IST" name="EdgeTest" finished-at="2023-08-28T13:45:09 IST" duration-ms="251495">
+      <class name="TestCases.TC2_AddCategory">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC2_AddCategory@52c3cb31]" started-at="2023-08-28T13:41:32 IST" name="LaunchApplication" finished-at="2023-08-28T13:41:36 IST" duration-ms="3953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="AddCategory()[pri:0, instance:TestCases.TC2_AddCategory@52c3cb31]" started-at="2023-08-28T13:41:36 IST" name="AddCategory" finished-at="2023-08-28T13:42:04 IST" duration-ms="28798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCategory -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC2_AddCategory@52c3cb31]" started-at="2023-08-28T13:41:36 IST" name="setupDriver" finished-at="2023-08-28T13:41:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+      </class> <!-- TestCases.TC2_AddCategory -->
+      <class name="TestCases.TC4_DeleteNewCourseAndCategory">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC4_DeleteNewCourseAndCategory@21fd5faa]" started-at="2023-08-28T13:42:45 IST" name="LaunchApplication" finished-at="2023-08-28T13:42:49 IST" duration-ms="3955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC4_DeleteNewCourseAndCategory@21fd5faa]" started-at="2023-08-28T13:42:49 IST" name="setupDriver" finished-at="2023-08-28T13:42:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="DeleteNewlyCreatedCourseAndCategories()[pri:0, instance:TestCases.TC4_DeleteNewCourseAndCategory@21fd5faa]" started-at="2023-08-28T13:42:49 IST" name="DeleteNewlyCreatedCourseAndCategories" finished-at="2023-08-28T13:43:34 IST" duration-ms="44852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteNewlyCreatedCourseAndCategories -->
+      </class> <!-- TestCases.TC4_DeleteNewCourseAndCategory -->
+      <class name="TestCases.TC1_CreateUser">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC1_CreateUser@19e4fcac]" started-at="2023-08-28T13:40:57 IST" name="LaunchApplication" finished-at="2023-08-28T13:41:02 IST" duration-ms="4632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC1_CreateUser@19e4fcac]" started-at="2023-08-28T13:41:02 IST" name="setupDriver" finished-at="2023-08-28T13:41:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="CreateUsers()[pri:0, instance:TestCases.TC1_CreateUser@19e4fcac]" started-at="2023-08-28T13:41:02 IST" name="CreateUsers" finished-at="2023-08-28T13:41:32 IST" duration-ms="29705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUsers -->
+      </class> <!-- TestCases.TC1_CreateUser -->
+      <class name="TestCases.TC5_ShopProduct">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC5_ShopProduct@2766ca9d]" started-at="2023-08-28T13:43:34 IST" name="LaunchApplication" finished-at="2023-08-28T13:43:38 IST" duration-ms="3965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC5_ShopProduct@2766ca9d]" started-at="2023-08-28T13:43:38 IST" name="setupDriver" finished-at="2023-08-28T13:43:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="ShopProduct()[pri:0, instance:TestCases.TC5_ShopProduct@2766ca9d]" started-at="2023-08-28T13:43:38 IST" name="ShopProduct" finished-at="2023-08-28T13:45:09 IST" duration-ms="90605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopProduct -->
+      </class> <!-- TestCases.TC5_ShopProduct -->
+      <class name="TestCases.TC3_AddCourse">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC3_AddCourse@6dab9b6d]" started-at="2023-08-28T13:42:04 IST" name="LaunchApplication" finished-at="2023-08-28T13:42:08 IST" duration-ms="3971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC3_AddCourse@6dab9b6d]" started-at="2023-08-28T13:42:08 IST" name="setupDriver" finished-at="2023-08-28T13:42:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="AddCourse()[pri:0, instance:TestCases.TC3_AddCourse@6dab9b6d]" started-at="2023-08-28T13:42:08 IST" name="AddCourse" finished-at="2023-08-28T13:42:45 IST" duration-ms="37026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCourse -->
+      </class> <!-- TestCases.TC3_AddCourse -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-08-28T13:40:57 IST" name="FirefoxTest" finished-at="2023-08-28T13:45:29 IST" duration-ms="271723">
+      <class name="TestCases.TC2_AddCategory">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC2_AddCategory@27d4a09]" started-at="2023-08-28T13:41:36 IST" name="LaunchApplication" finished-at="2023-08-28T13:41:41 IST" duration-ms="5405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC2_AddCategory@27d4a09]" started-at="2023-08-28T13:41:41 IST" name="setupDriver" finished-at="2023-08-28T13:41:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="AddCategory()[pri:0, instance:TestCases.TC2_AddCategory@27d4a09]" started-at="2023-08-28T13:41:41 IST" name="AddCategory" finished-at="2023-08-28T13:42:11 IST" duration-ms="29919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCategory -->
+      </class> <!-- TestCases.TC2_AddCategory -->
+      <class name="TestCases.TC1_CreateUser">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC1_CreateUser@6d025197]" started-at="2023-08-28T13:40:57 IST" name="LaunchApplication" finished-at="2023-08-28T13:41:05 IST" duration-ms="7292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="CreateUsers()[pri:0, instance:TestCases.TC1_CreateUser@6d025197]" started-at="2023-08-28T13:41:05 IST" name="CreateUsers" finished-at="2023-08-28T13:41:36 IST" duration-ms="31205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUsers -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC1_CreateUser@6d025197]" started-at="2023-08-28T13:41:05 IST" name="setupDriver" finished-at="2023-08-28T13:41:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+      </class> <!-- TestCases.TC1_CreateUser -->
+      <class name="TestCases.TC4_DeleteNewCourseAndCategory">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC4_DeleteNewCourseAndCategory@b7c4869]" started-at="2023-08-28T13:42:59 IST" name="LaunchApplication" finished-at="2023-08-28T13:43:05 IST" duration-ms="6382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC4_DeleteNewCourseAndCategory@b7c4869]" started-at="2023-08-28T13:43:05 IST" name="setupDriver" finished-at="2023-08-28T13:43:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="DeleteNewlyCreatedCourseAndCategories()[pri:0, instance:TestCases.TC4_DeleteNewCourseAndCategory@b7c4869]" started-at="2023-08-28T13:43:05 IST" name="DeleteNewlyCreatedCourseAndCategories" finished-at="2023-08-28T13:43:50 IST" duration-ms="45167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteNewlyCreatedCourseAndCategories -->
+      </class> <!-- TestCases.TC4_DeleteNewCourseAndCategory -->
+      <class name="TestCases.TC5_ShopProduct">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC5_ShopProduct@740d2e78]" started-at="2023-08-28T13:43:50 IST" name="LaunchApplication" finished-at="2023-08-28T13:43:57 IST" duration-ms="6691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC5_ShopProduct@740d2e78]" started-at="2023-08-28T13:43:57 IST" name="setupDriver" finished-at="2023-08-28T13:43:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="ShopProduct()[pri:0, instance:TestCases.TC5_ShopProduct@740d2e78]" started-at="2023-08-28T13:43:57 IST" name="ShopProduct" finished-at="2023-08-28T13:45:29 IST" duration-ms="91866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopProduct -->
+      </class> <!-- TestCases.TC5_ShopProduct -->
+      <class name="TestCases.TC3_AddCourse">
+        <test-method is-config="true" signature="LaunchApplication(java.lang.String)[pri:0, instance:TestCases.TC3_AddCourse@7e4204e2]" started-at="2023-08-28T13:42:11 IST" name="LaunchApplication" finished-at="2023-08-28T13:42:18 IST" duration-ms="6429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCases.TC3_AddCourse@7e4204e2]" started-at="2023-08-28T13:42:18 IST" name="setupDriver" finished-at="2023-08-28T13:42:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="AddCourse()[pri:0, instance:TestCases.TC3_AddCourse@7e4204e2]" started-at="2023-08-28T13:42:18 IST" name="AddCourse" finished-at="2023-08-28T13:42:59 IST" duration-ms="41331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCourse -->
+      </class> <!-- TestCases.TC3_AddCourse -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

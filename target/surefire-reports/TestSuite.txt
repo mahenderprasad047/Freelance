@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 26.132 s <<< FAILURE! - in TestSuite
+TestCases.TC5_ShopProduct.ShopProduct  Time elapsed: 6.906 s  <<< FAILURE!
+java.lang.AssertionError: Step1 - User is NOT logged in successfully expected [true] but found [false]
+	at TestCases.TC5_ShopProduct.ShopProduct(TC5_ShopProduct.java:53)
+
+TestCases.TC5_ShopProduct.ShopProduct  Time elapsed: 7.372 s  <<< FAILURE!
+java.lang.AssertionError: Step1 - User is NOT logged in successfully expected [true] but found [false]
+	at TestCases.TC5_ShopProduct.ShopProduct(TC5_ShopProduct.java:53)
+
+TestCases.TC5_ShopProduct.ShopProduct  Time elapsed: 11.515 s  <<< FAILURE!
+java.lang.AssertionError: Step1 - User is NOT logged in successfully expected [true] but found [false]
+	at TestCases.TC5_ShopProduct.ShopProduct(TC5_ShopProduct.java:53)
+

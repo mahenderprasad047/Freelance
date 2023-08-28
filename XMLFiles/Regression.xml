@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Suite">
+	
+  <listeners>
+  	<listener class-name="GenericUtilities.ExtentTestNGITestListener"></listener>
+  </listeners>
+  
+  <test name="ChromeTest">
+	<parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="TestCases.TC1_CreateUser"/>
+      <class name="TestCases.TC2_AddCategory"/>
+      <class name="TestCases.TC3_AddCourse"/>
+      <class name="TestCases.TC4_DeleteNewCourseAndCategory"/>
+    </classes>
+  </test> 
+  
+  <test name="EdgeTest">
+	<parameter name="browserName" value="Edge"/>
+    <classes>
+	  <class name="TestCases.TC1_CreateUser"/>
+      <class name="TestCases.TC2_AddCategory"/>
+      <class name="TestCases.TC3_AddCourse"/>
+      <class name="TestCases.TC4_DeleteNewCourseAndCategory"/>
+    </classes>
+  </test> 
+  
+  <test name="FirefoxTest">
+	<parameter name="browserName" value="Firefox"/>
+    <classes>
+	  <class name="TestCases.TC1_CreateUser"/>
+	  <class name="TestCases.TC2_AddCategory"/>
+      <class name="TestCases.TC3_AddCourse"/>
+      <class name="TestCases.TC4_DeleteNewCourseAndCategory"/>
+    </classes>
+  </test> 
+  
+</suite> 
