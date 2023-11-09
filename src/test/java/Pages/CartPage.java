@@ -24,7 +24,7 @@ public class CartPage
 	By eleCartItemCount = By.xpath("//button[@Class=\"cartBtn\"]//span");
 	By eleTotalPrice = By.xpath("//h3[text()=\"Total Price:\"]//b");
 	By btnEnrollNow = By.xpath("//button[text()=\"Enroll Now\"]");
-	By edtAddress = By.xpath("//textarea[@id=\"thumbnail\"]");
+	By edtAddress = By.xpath("//textarea[@id=\"address\"]");
 	By edtPhoneNumber = By.xpath("//h3[text()=\"Phone Number\"]/following::input");
 	By btnEnrollNowFinal = By.xpath("//button[@class=\"action-btn\" and text()=\"Enroll Now\"]");
 	By eleOrderID = By.xpath("//h4[contains(text(),'Your order id is')]");
