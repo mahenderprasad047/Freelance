@@ -26,7 +26,7 @@ public class HomePage
 	By btnManage = By.xpath("//span[text()=\"Manage\"]");
 	By btnManageCategories = By.xpath("//a[@href=\"/category/manage\"]");
 	//By eleMenuDropDown = By.xpath("//*[local-name()='svg' and contains(@xmlns,'/svg') and @viewBox=\"0 0 24 24\"]");
-	By eleMenuDropDown = By.xpath("//button[@class=\"cartBtn\"]//..//*[local-name()='svg' and @width=\"48px\"]");
+	By eleMenuDropDown = By.xpath("//img[@alt='menu']");
 	By btnHome = By.xpath("//div[text()=\"Home\"]");
 	By btnSignOut = By.xpath("//button[text()=\"Sign out\"]");
 	By btnCart = By.xpath("//button[@Class=\"cartBtn\"]");
